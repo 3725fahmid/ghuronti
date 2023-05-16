@@ -1,0 +1,68 @@
+.Card{
+    width: 350px;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 16px rgba(74, 180, 73, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Cardpic{
+    position: absolute;
+    left: 13px;
+    top: 10px;
+    width: 325px;
+    height: 256px;
+}
+.Carddetails{
+    position: absolute;
+    left: -230px;
+    top: 300px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.cardplace{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardplace h1{
+    margin-left: -100px;
+    font-family: Poppins;
+    font-size: 18px;
+
+}
+
+.cardplace p{
+    margin-left: 40px;
+}
+
+.daysOfjourney{
+    position: absolute;
+    left: 500px;
+    box-sizing: border-box;
+}
+.daysOfjourney p{
+    padding: 3px;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    background-color: #E5F8FF;
+    border: 1px solid transparent;
+}
+
+.Cardbutton{
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    width: 160px;
+    height: 46px;
+    background: #4AB449;
+    color: #fff;
+    border-radius: 5px;
+}
+

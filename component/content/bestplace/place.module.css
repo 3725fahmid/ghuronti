@@ -1,0 +1,72 @@
+.place{
+    margin-top: 20rem;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+.place h1{
+    font-size: 32px;
+    font-family: poppins;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.Cards {
+    background-color: red;
+    width: 100%;
+    overflow: auto;
+    margin-left: 10rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.coxBazar{
+    background: #E5F8FF;
+    border-radius: 5px;
+    height: 380px;
+    width: 540px;
+}
+
+.nameOfplace{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 2rem;
+    color: black;
+}
+
+.otherPlace{
+    margin-top: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.description{
+    width: 650px;
+    height: 15%;
+    position: relative;
+}
+.smallCardDetails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1px;
+    padding: 0.5rem;
+    color: black;
+}
+.Anotherplace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+.smallCard{
+    width: 255px;
+    height: 207px;
+    background-color: #E5F8FF;
+}

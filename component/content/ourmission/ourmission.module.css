@@ -1,0 +1,61 @@
+.mission{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.details h1{
+    width: 575px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+.details p {
+    height: 57px;
+    width: 575px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.missionCard{
+    margin-top: 2rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 2rem;
+    width: 1000px;
+    height: auto;
+}
+.CardMission{
+    position: relative;
+    color: #000;
+    width: 350px;
+    height: 350px;
+    background: url('../../../public/svgs/v228-wit-06-job58\ 1.svg');
+}
+.CardMission h1{
+    height: 25px;
+    width: 118px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.CardMission p{
+    height: 93px;
+    width: 175px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 5rem;
+    top: 7rem;
+}

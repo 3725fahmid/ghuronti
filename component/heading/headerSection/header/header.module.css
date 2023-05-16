@@ -1,0 +1,27 @@
+.heading{
+    background-image: url('../../../../public/svgs/log.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.content{
+    background: linear-gradient(180deg, rgba(230, 248, 255, 0.3) 0%, rgba(230, 248, 255, 0.18) 0.01%, rgba(38, 173, 226, 0.28) 10%);
+    height: 500px;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content h1{
+    width: 1500px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+
+}
