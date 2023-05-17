@@ -1,0 +1,17 @@
+.cardBooking{
+    width: 1105px;
+    height: 460px;
+    background: linear-gradient(180deg, rgba(230, 248, 255, 0.131) 0%, rgba(229, 248, 255, 0.012) 100%);
+    box-shadow: 0px 2px 12px rgba(25, 171, 227, 0.3);
+    border-radius: 42px;
+}
+.header {
+    width: 1105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 86px;
+    background: #ff0000;
+    color: #ffff;
+    border-radius: 42px 42px 0px 0px;
+}

@@ -2,8 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Styles from './place.module.css'
 import CoxBazar from '../../../public/svgs/Coxbazar.svg'
-import SwiperContent from '../../../component/Swiper'
-import SliderHere from '../../content/bestplace'
+import SwiperContent from '../destination/Card/Swiper'
 
 const place = () => {
   return (

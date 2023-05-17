@@ -13,7 +13,6 @@
     margin-bottom: 3rem;
 }
 .Cards {
-    background-color: red;
     width: 100%;
     overflow: auto;
     margin-left: 10rem;
@@ -22,10 +21,11 @@
 }
 
 .coxBazar{
+    margin-left: 5rem;
     background: #E5F8FF;
     border-radius: 5px;
-    height: 380px;
-    width: 540px;
+    height: 350px;
+    width: 950px;
 }
 
 .nameOfplace{
@@ -39,11 +39,11 @@
 }
 
 .otherPlace{
-    margin-top: 0;
+    margin-top: -50px;
     overflow: auto;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 1rem;
 }
 .description{
     width: 650px;
@@ -60,10 +60,7 @@
     color: black;
 }
 .Anotherplace{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: auto;
+   margin-left: -60px;
 }
 .smallCard{
     width: 255px;
